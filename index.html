@@ -1,7 +1,38 @@
 <!DOCTYPE html>
-<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet"> 
+    <script src="index.js" defer></script>
     <link rel="stylesheet" href="index.css">
-    <h1>Rock Paper Scissors Game</h1>
-    <p class="cpuAnswer"></p>
-    <script src="index.js"></script>
+</head>
+
+<html>
+    <h1>Rock Paper Scissors!</h1>
+    <p>Hotkeys: Rock = `a`, Paper = `s`, Scissors = `d`</p>
+    <h2>Score:
+        <div class = "score">
+            <div data-key = "65" class="wins" id = "scorebox">Wins: 0</div>
+            <div data-key = "83" class="ties" id = "scorebox">Ties: 0</div>
+            <div data-key = "68" class="losses" id = "scorebox">Losses: 0</div>
+        </div>
+    </h2>
+    <h2>Result:
+        <div class = "result"></div>
+    </h2>
+    <h2>You:
+        <div class = "selection-board">
+            <div id = "rock" class = "selection"></div>
+            <div id = "paper" class = "selection"></div>
+            <div id = "scissors" class = "selection"></div>
+        </div>
+    </h2>
+
+    <h2>Computer:
+        <div class = "computer-selection"></div>
+    </h2>
+
+
+    <!-- <h3>Keyboard shortcuts: <br>'A' = Rock <br>'S' = Paper <br>'D' = Scissors</h3> -->
+
 </html>

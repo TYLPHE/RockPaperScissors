@@ -1,0 +1,73 @@
+body{
+    text-align: center;
+    color: rgb(202, 206, 0);
+    background-color: rgb(40, 9, 68);
+    font-family: 'Righteous', cursive;
+}
+
+h2{
+    text-align: left;
+    width: 60%;
+    margin:auto;
+}
+
+.selection-board{
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+.selection{
+    background-color: rgb(62, 7, 110);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    width: 9rem;
+    height: 9rem;
+}
+.score{
+    display: flex;
+    background-color: rgb(40, 9, 68);
+    justify-content: center;
+    align-items:center;
+    margin: auto;
+    height: 3rem;
+    width: 100%;
+    gap: 2rem;
+}
+
+#scorebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    width: 9rem;
+    height: 3rem;
+    background-color: rgb(62, 7, 110);
+    font-size: 1.5rem;
+    
+}
+
+.computer-selection{
+    display: flex;
+    background-color: rgb(62, 7, 110);
+    justify-content: center;
+    align-items:center;
+    margin: auto;
+    border: 1px solid white;
+    height: 9rem;
+    width: 9rem;
+}
+
+.result{
+    display: flex;
+    background-color: rgb(62, 7, 110);
+    justify-content: center;
+    align-items:center;
+    margin: auto;
+    border: 1px solid white;
+    height: 3rem;
+    width: 100%;
+}
