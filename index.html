@@ -9,18 +9,12 @@
 
 <html>
     <h1>Rock Paper Scissors!</h1>
-    <p>Hotkeys: Rock = `a`, Paper = `s`, Scissors = `d`</p>
-    <h2>Score:
-        <div class = "score">
-            <div data-key = "65" class="wins" id = "scorebox">Wins: 0</div>
-            <div data-key = "83" class="ties" id = "scorebox">Ties: 0</div>
-            <div data-key = "68" class="losses" id = "scorebox">Losses: 0</div>
-        </div>
-    </h2>
-    <h2>Result:
+    <p>Hotkeys: Rock = `a`, Paper = `s`, Scissors = `d` next = `f`</p>
+
+    <h2 class = "result-data hidden">Result:
         <div class = "result"></div>
     </h2>
-    <h2>You:
+    <h2 class = "weapon-data">Choose your weapon:
         <div class = "selection-board">
             <div id = "rock" class = "selection"></div>
             <div id = "paper" class = "selection"></div>
@@ -28,11 +22,15 @@
         </div>
     </h2>
 
-    <h2>Computer:
-        <div class = "computer-selection"></div>
+    <h2 class = "score-data">Score:
+        <div class = "score">
+            <div data-key = "65" class="wins" id = "scorebox">Wins: 0</div>
+            <div data-key = "83" class="ties" id = "scorebox">Ties: 0</div>
+            <div data-key = "68" class="losses" id = "scorebox">Losses: 0</div>
+        </div>
     </h2>
 
-
-    <!-- <h3>Keyboard shortcuts: <br>'A' = Rock <br>'S' = Paper <br>'D' = Scissors</h3> -->
-
+    <h2 class = "computer-data hidden">Computer:
+        <div class = "computer-selection"></div>
+    </h2>
 </html>
